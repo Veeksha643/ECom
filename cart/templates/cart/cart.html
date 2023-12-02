@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<p>blnlal</p>
+
+{% for item in cart_items %}
+    <div>Quantity: {{ item.quantity }}</div>
+{% endfor %}
+{% endblock %}
